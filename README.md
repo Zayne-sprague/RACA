@@ -1,3 +1,5 @@
+
+
 # RACA: Research Assistant Coding Agent
 
 One Claude Code session: design experiments, run them on your compute, analyze the results.
@@ -72,6 +74,8 @@ Just `cd` into your workspace and run `claude`:
 cd /path/to/your/workspace
 claude
 ```
+
+*Note: The installer appends the tools directory to your shell profile (`~/.bashrc` or `~/.zshrc`). You may need to open a new terminal or run `source ~/.bashrc` for `claude` to be found on your PATH.*
 
 That's it. RACA picks up where you left off — clusters, experiments, everything. If your SSH sessions expired, reconnect with `raca auth <cluster>`.
 
